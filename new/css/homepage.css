@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffafa;
+}
+
+/* Header */
+header{
+    background-color: #156c94;
+    color: #156c94;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+
+
+
+
+
+
+header h1 button a { 
+    font-size: 100px;
+    padding: none;
+    background-color: #067b8a;
+    color: rgb(64, 250, 126, 0.822);
+    text-decoration: none;
+    
+    
+    
+    
+
+    
+}
+
+header h1 button a:hover {
+    background-clip: border-box;
+    border-radius: 30px;
+    transition: all 0.9s;
+    background-color: #3a333348;
+    color: rgb(64, 250, 126, 0.822);
+    text-decoration: none;
+    font-size: 100px;
+    padding: 0px;
+
+    
+    
+}
+
+button {
+    padding: 0%;
+    background-color: #067b8a;
+    border: none;
+    
+}
+
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: top;
+    background-color: #333;
+}
+
+nav a {
+    color: rgb(152, 219, 75);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+    
+}
+
+nav a:hover {
+    border-radius: 20px;
+    transition: all none;
+    appearance: auto;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+/* Main Content */
+main {
+    background-color: #c9c5c5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #c9c5c5;
+}
+
+#home h2 p {
+
+    
+    
+    
+}
+
+
+
+
+
+#profile {
+    
+
+
+
+}
+
+#contact {
+    
+    
+
+
+}
+
+#settings {
+    
+
+
+
+
+
+}
+
+/* Sidebar */
+aside {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+}
+
+/* Feed */
+.feed {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Post */
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

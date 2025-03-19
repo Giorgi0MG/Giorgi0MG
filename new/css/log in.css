@@ -1,0 +1,65 @@
+/* Styles for the login page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #656565;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #b9b3b3;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2:hover {
+    transition: 1s;
+    text-transform: capitalize;
+    color: #007bff;
+
+
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+
+    width: 330px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+    
+}
+
+.login-container button {
+    transition: 1s;
+    width: 90%;
+    padding: 10px;
+    background-color: #3760e7;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+}
+
+.login-container button:hover {
+    background-color: #1310c4;
+}
+
+
+.login-container button:hover:active {
+    transition: all 0.1s;
+    transform: translateY(2px);
+    background-color: #067b8a;
+
+}
