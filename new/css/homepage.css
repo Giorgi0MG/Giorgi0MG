@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fffafa;
+    background-color: #520bd6;
 }
 
 /* Header */
@@ -27,7 +27,7 @@ header h1 button a {
     font-size: 100px;
     padding: none;
     background-color: #067b8a;
-    color: rgb(64, 250, 126, 0.822);
+    color: rgba(64, 250, 157, 0.822);
     text-decoration: none;
     
     
@@ -40,7 +40,7 @@ header h1 button a {
 header h1 button a:hover {
     background-clip: border-box;
     border-radius: 30px;
-    transition: all 0.9s;
+    transition: all 1s;
     background-color: #3a333348;
     color: rgb(64, 250, 126, 0.822);
     text-decoration: none;
@@ -101,6 +101,7 @@ main {
     background-color: #c9c5c5;
 }
 
+/*
 #home h2 p {
 
     
@@ -134,7 +135,7 @@ main {
 
 
 }
-
+*/
 /* Sidebar */
 aside {
     width: 25%;
