@@ -1,0 +1,44 @@
+body {
+    
+    background-color: #252323;
+
+}
+
+.logo img {
+    display: inline-block;
+    margin-left: 43%;
+    margin-top: 0 auto;
+    padding-top: 10px;
+    width: 250px;   
+    height: 250px;
+    border-radius: 30%;
+    border: 1px solid #b0e26094;
+    box-shadow: 0px 0px 10px 5px #93a18a8a;
+
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: start;
+    scroll-margin-block: 1px;
+    
+    border-top: #cccccc 1px solid;
+    border-left: #cccccc 1px solid;
+    border-right: #cccccc 1px solid;
+    border-bottom: #cccccc 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
