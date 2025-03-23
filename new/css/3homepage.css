@@ -1,10 +1,42 @@
-body {
-    
-    background-color: #363636;
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #302f2f;
     color: white;
 
 }
 
+
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #416a9900;
+
+    
+}
+
+
+
+
+
+
+    
+.image-logo {
+    background-color: #bb0c0c00;
+    border: none;
+    
+  
+}
+
+.img {
+    display: flex;
+    border-radius: 25%;
+    width: 200px;
+    height: 200px;
+}
 
 
 
@@ -28,7 +60,7 @@ body {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 15px;
-    background-color: #7fca509a;
+    background-color: #85db509a;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -48,7 +80,7 @@ body {
 
 .search.search::placeholder {
     
-    color: hsl(39, 66%, 55%);
+    color: hsl(39, 71%, 67%);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
@@ -90,6 +122,7 @@ body {
 
  }
 
+ 
 
 
 
@@ -106,19 +139,21 @@ body {
 
 
 
-
-
- h1 {
+h1 {
     display: flex;
     background-color: rgba(122, 166, 204, 0);
 
     
  }
 
+
+
+
  .satauri {
     display: flex;
     justify-content: start;
-    border: 1px solid #363636;
+    border: 0px solid #363636;
+    
     
     
     
@@ -128,15 +163,30 @@ body {
     display: flex;
     justify-content: start;
     font-size: 40px;
-   
-   
+    padding: 1px;
+    margin: auto;
+    border-radius: 10px;
     background-color: #00397900;
  }
+ 
+
+
+
+
+
 
  .h4 {
-    color: #363636;
+    transition: 0.3S;
+    transform: rotate(360deg);
+    color: #36363600;
        
 }
+
+
+
+
+
+
 
 h1>div>#m1 {
     color: #ffd8d8;
@@ -207,65 +257,89 @@ h1>div>#m13:hover {
     color: #f13232;
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
-    
+    transition: 0.3S;
+    transform: rotate(60deg);
 }
 h1>div>#m12:hover {
     color: #f14b09;
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
 }
+
 h1>div>#m11:hover {
     color: #ffe600;
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(60deg);
 }
 
 h1>div>#m10:hover {
     color: #2bff00; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
 }
 h1>div>#m9:hover {
     color: #03ffdd; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(60deg);
 }
 
 h1>div>#m8:hover {
     color: #5d65ad; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
 }
 h1>div>#m7:hover {
     color: #7600ad; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(60deg);
 }
 h1>div>#m6:hover {
     color: #ff0080; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
 }
 h1>div>#m5:hover {
     color: #0891a3; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(60deg);
 }
 h1>div>#m4:hover {
     color: #047012; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
 }
 h1>div>#m3:hover {
     color: #530342; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
 }
 
 h1>div>#m2:hover {
     color: #9cc700; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(60deg);
 
 }
 
@@ -273,6 +347,8 @@ h1>div>#m1:hover {
     color: #74ad5d; 
     transition: 0.5ms;
     transform: perspective(1px) scale(1.5);
+    transition: 0.3S;
+    transform: rotate(-60deg);
     
 }
 
@@ -333,3 +409,28 @@ h1>div>#m1:hover {
 
 
 
+
+
+
+.footer-local {
+    
+
+    
+}
+
+
+
+
+.footer { 
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    background-color: #333;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #1f2122;
+}
