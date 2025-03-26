@@ -1,3 +1,10 @@
+* {
+   
+}
+
+
+
+
 html, body {
     display: inline;
     justify-content: center;
@@ -12,7 +19,7 @@ html, body {
 body {
     
     background-color: #444649;
-    color: white;
+    
 }
 
 
@@ -380,6 +387,7 @@ h1>div>#m1:hover {
  }
 
  
+ 
 
 
 
@@ -392,7 +400,6 @@ h1>div>#m1:hover {
     margin-right: 2px;
     background-color: #757e8b;
     border-radius: 15px;
-    color: rgb(255, 255, 255);
     font-size: 15px;
     text-align: center;
     margin: 1px;    
@@ -411,15 +418,12 @@ h1>div>#m1:hover {
 
 
 .footer-local {
-    border: 1px solid black;
+    
     position: fixed;
-    bottom: 5px;
+    bottom: 20px;
     width: 98%;
     height: 60px;
-    background-color: #575757;
-    border-radius: 30px;
-    padding: 20px;
-    text-align: 20px;
+    
      
 
     
@@ -433,8 +437,13 @@ h1>div>#m1:hover {
 .footer { 
    display: flex;
    justify-content: center;
-    color: #f0f6fa;
+   border-radius: 30px;
+    border: 1px solid black;
+    background-color: #616161;
+    color: #f70000;
+    
     font-size: 20px;
+    
 
     
 }
